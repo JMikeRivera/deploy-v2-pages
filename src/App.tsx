@@ -6,7 +6,8 @@ const version = import.meta.env.VITE_PUBLIC_VERSION || "dev-local";
 const notes = [
   "Lint, tests y build como compuertas",
   "Promocion por Pull Request",
-  "Despliegue de staging en GitHub Pages"
+  "Despliegue de staging en GitHub Pages",
+  "Cambio visible listo para promocion"
 ];
 
 export default function App() {
@@ -49,4 +50,3 @@ export default function App() {
     </main>
   );
 }
-
